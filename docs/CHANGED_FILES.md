@@ -1,0 +1,42 @@
+# Изменения относительно v0.9
+
+Полные файлы включены в project/. Не требуется вручную накладывать патч.
+
+- `CHANGELOG.md`
+- `GAME_DESIGN.md`
+- `PROJECT_STATE.md`
+- `README.md`
+- `ROADMAP.md`
+- `data/campaign.json`
+- `data/investigation/level01.json`
+- `docs/NARRATIVE_20_LEVELS.md`
+- `docs/TEST_REPORT.md`
+- `docs/USER_BRIEF_V10.md`
+- `docs/V09_AUDIT.md`
+- `docs/history/v09_CHANGELOG.md`
+- `docs/history/v09_GAME_DESIGN.md`
+- `docs/history/v09_PROJECT_STATE.md`
+- `docs/history/v09_README.md`
+- `docs/history/v09_ROADMAP.md`
+- `project.godot`
+- `scenes/Campaign.tscn`
+- `scenes/levels/Level01.tscn`
+- `scripts/campaign/controller.gd`
+- `scripts/campaign/state.gd`
+- `scripts/investigation/controller.gd`
+- `scripts/investigation/controller.gd.uid`
+- `scripts/investigation/courtyard.gd`
+- `scripts/investigation/courtyard.gd.uid`
+- `scripts/investigation/rules.gd`
+- `scripts/investigation/rules.gd.uid`
+- `tests/LAST_RUN.json`
+- `tests/check_project.py`
+- `tests/level01_route.gd`
+- `tests/level01_route.gd.uid`
+- `tests/run_campaign.py`
+- `tests/test_campaign.gd`
+- `tests/test_campaign_physics.gd`
+- `tests/test_level01.gd`
+- `tests/test_level01.gd.uid`
+- `tests/test_restart.gd`
+- `tests/test_v09_save.gd`

@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-13T12:36:35.112846+00:00",
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "platform": "win32",
+  "mode": "headless; no visual or physical webcam validation",
+  "results": [
+    {
+      "test": "import",
+      "pass": true,
+      "exit_code": 0,
+      "output": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\r\n\r\n[   0% ] \u001b[90m\u001b[1mfirst_scan_filesystem\u001b[22m | Started Инициализация проекта (5 steps)\u001b[39m\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1mfirst_scan_filesystem\u001b[22m | Сканирование структуры файлов…\u001b[39m\u001b[0m\r\n[  16% ] \u001b[90m\u001b[1mfirst_scan_filesystem\u001b[22m | Загрузка глобальных имен классов…\u001b[39m\u001b[0m\r\n[  33% ] \u001b[90m\u001b[1mfirst_scan_filesystem\u001b[22m | Проверка GDExtensions…\u001b[39m\u001b[0m\r\n[  50% ] \u001b[90m\u001b[1mfirst_scan_filesystem\u001b[22m | Создание скриптов автозагрузки…\u001b[39m\u001b[0m\r\n[  66% ] \u001b[90m\u001b[1mfirst_scan_filesystem\u001b[22m | Инициализация плагинов…\u001b[39m\u001b[0m\r\n[  83% ] \u001b[90m\u001b[1mfirst_scan_filesystem\u001b[22m | Начало сканирование файлов…\u001b[39m\u001b[0m\r\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mfirst_scan_filesystem\u001b[22m\r\n\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1mloading_editor_layout\u001b[22m | Started Загрузка редактора (5 steps)\u001b[39m\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1mloading_editor_layout\u001b[22m | Загрузка макета редактора…\u001b[39m\u001b[0m\r\n[  16% ] \u001b[90m\u001b[1mloading_editor_layout\u001b[22m | Загрузка док-панели…\u001b[39m\u001b[0m\r\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mloading_editor_layout\u001b[22m\r\n\u001b[0m\r\nERROR: Failed to read the root certificate store.\r\n   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)\r\n"
+    },
+    {
+      "test": "test_v09_save",
+      "pass": true,
+      "exit_code": 0,
+      "output": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\r\n\r\nV09 SAVE COMPATIBILITY: PASS\r\nERROR: Failed to read the root certificate store.\r\n   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)\r\n"
+    },
+    {
+      "test": "test_level01",
+      "pass": true,
+      "exit_code": 0,
+      "output": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\r\n\r\nLEVEL01 ROUTE: easy PASS\r\nLEVEL01 ROUTE: normal PASS\r\nLEVEL01 ROUTE: hard PASS\r\nLEVEL01 CHECKS: 108/108; failures=0\r\nERROR: Failed to read the root certificate store.\r\n   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)\r\n"
+    },
+    {
+      "test": "test_campaign",
+      "pass": true,
+      "exit_code": 0,
+      "output": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\r\n\r\nPASS route: easy / 02 Центральный вестибюль\r\nPASS route: easy / 03 Лекционный зал\r\nPASS route: easy / 04 Библиотека\r\nPASS route: easy / 05 Библиотечное хранилище\r\nPASS route: easy / 06 Компьютерный класс\r\nPASS route: easy / 07 Студенческая комната\r\nPASS route: easy / 08 Комната видеонаблюдения\r\nPASS route: easy / 09 Лабораторный коридор\r\nPASS route: easy / 10 Место преступления\r\nPASS route: easy / 11 Лабораторное хранилище\r\nPASS route: easy / 12 Форензик-лаборатория\r\nPASS route: easy / 13 Кабинет Миры\r\nPASS route: easy / 14 Техническое помещение охраны\r\nPASS route: easy / 15 Кабинет Данияра\r\nPASS route: easy / 16 Серверная проекта ЭХО\r\nPASS route: easy / 17 Закрытый архив видеонаблюдения\r\nPASS route: easy / 18 Секретный архив эксперимента\r\nPASS route: easy / 19 Комната реконструкции\r\nPASS route: easy / 20 Последняя пара\r\nPASS route: normal / 02 Центральный вестибюль\r\nPASS route: normal / 03 Лекционный зал\r\nPASS route: normal / 04 Библиотека\r\nPASS route: normal / 05 Библиотечное хранилище\r\nPASS route: normal / 06 Компьютерный класс\r\nPASS route: normal / 07 Студенческая комната\r\nPASS route: normal / 08 Комната видеонаблюдения\r\nPASS route: normal / 09 Лабораторный коридор\r\nPASS route: normal / 10 Место преступления\r\nPASS route: normal / 11 Лабораторное хранилище\r\nPASS route: normal / 12 Форензик-лаборатория\r\nPASS route: normal / 13 Кабинет Миры\r\nPASS route: normal / 14 Техническое помещение охраны\r\nPASS route: normal / 15 Кабинет Данияра\r\nPASS route: normal / 16 Серверная проекта ЭХО\r\nPASS route: normal / 17 Закрытый архив видеонаблюдения\r\nPASS route: normal / 18 Секретный архив эксперимента\r\nPASS route: normal / 19 Комната реконструкции\r\nPASS route: normal / 20 Последняя пара\r\nPASS route: hard / 02 Центральный вестибюль\r\nPASS route: hard / 03 Лекционный зал\r\nPASS route: hard / 04 Библиотека\r\nPASS route: hard / 05 Библиотечное хранилище\r\nPASS route: hard / 06 Компьютерный класс\r\nPASS route: hard / 07 Студенческая комната\r\nPASS route: hard / 08 Комната видеонаблюдения\r\nPASS route: hard / 09 Лабораторный коридор\r\nPASS route: hard / 10 Место преступления\r\nPASS route: hard / 11 Лабораторное хранилище\r\nPASS route: hard / 12 Форензик-лаборатория\r\nPASS route: hard / 13 Кабинет Миры\r\nPASS route: hard / 14 Техническое помещение охраны\r\nPASS route: hard / 15 Кабинет Данияра\r\nPASS route: hard / 16 Серверная проекта ЭХО\r\nPASS route: hard / 17 Закрытый архив видеонаблюдения\r\nPASS route: hard / 18 Секретный архив эксперимента\r\nPASS route: hard / 19 Комната реконструкции\r\nPASS route: hard / 20 Последняя пара\r\nCAMPAIGN CHECKS: 1052 passed / 1052 total; failures=0\r\nERROR: Failed to read the root certificate store.\r\n   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)\r\n"
+    },
+    {
+      "test": "test_restart",
+      "pass": true,
+      "exit_code": 0,
+      "output": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\r\n\r\nRESTART SAVE: PASS\r\nERROR: Failed to read the root certificate store.\r\n   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)\r\n"
+    },
+    {
+      "test": "test_campaign_physics",
+      "pass": true,
+      "exit_code": 0,
+      "output": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\r\n\r\nPHYSICS 01: 824 walkable grid cells\r\nPHYSICS 02: 272 walkable grid cells\r\nPHYSICS 03: 327 walkable grid cells\r\nPHYSICS 04: 230 walkable grid cells\r\nPHYSICS 05: 226 walkable grid cells\r\nPHYSICS 06: 277 walkable grid cells\r\nPHYSICS 07: 193 walkable grid cells\r\nPHYSICS 08: 177 walkable grid cells\r\nPHYSICS 09: 172 walkable grid cells\r\nPHYSICS 10: 306 walkable grid cells\r\nPHYSICS 11: 176 walkable grid cells\r\nPHYSICS 12: 275 walkable grid cells\r\nPHYSICS 13: 184 walkable grid cells\r\nPHYSICS 14: 211 walkable grid cells\r\nPHYSICS 15: 232 walkable grid cells\r\nPHYSICS 16: 325 walkable grid cells\r\nPHYSICS 17: 231 walkable grid cells\r\nPHYSICS 18: 273 walkable grid cells\r\nPHYSICS 19: 339 walkable grid cells\r\nPHYSICS 20: 411 walkable grid cells\r\nPHYSICS CHECKS: 249/249; failures=0\r\nERROR: Failed to read the root certificate store.\r\n   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)\r\n"
+    },
+    {
+      "test": "test_intent",
+      "pass": true,
+      "exit_code": 0,
+      "output": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\r\n\r\nPASS Скажите, где вы были вчера вечером? --> алиби\r\nPASS У вас есть алиби? --> алиби\r\nPASS Почему ваш пропуск оказался у лаборатории? --> доступ\r\nPASS Во сколько вы вошли по карте? --> доступ\r\nPASS Кто отключил камеры наблюдения? --> камеры\r\nPASS Почему не работала система видеонаблюдения? --> камеры\r\nPASS Зачем подделали результаты проекта ЭХО? --> проект\r\nPASS Что вы знаете о научном исследовании? --> проект\r\nPASS Можете объяснить найденные доказательства? --> улики\r\nPASS Что это за флешка с данными? --> улики\r\nNLP intent test: 10/10\r\nERROR: Failed to read the root certificate store.\r\n   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)\r\n"
+    },
+    {
+      "test": "test_collision",
+      "pass": true,
+      "exit_code": 0,
+      "output": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\r\n\r\nPASS collision: вестибюль\r\nPASS collision: библиотека\r\nPASS collision: лаборатория\r\nPASS collision: архив\r\nPASS collision: мост библиотеки\r\nPASS collision: мост лаборатории\r\nPASS collision: мост архива\r\nFloor collision test: 7/7\r\nERROR: Failed to read the root certificate store.\r\n   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)\r\n"
+    },
+    {
+      "test": "test_interactions",
+      "pass": true,
+      "exit_code": 0,
+      "output": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\r\n\r\nPASS physical prop note\r\nPASS physical prop register\r\nPASS physical prop message\r\nPASS physical prop pass\r\nPASS physical prop trace\r\nPASS physical prop usb\r\nPASS physical prop scanner\r\nPASS physical prop audit\r\nPASS physical prop security\r\nPASS physical prop timeline\r\nPASS physical prop final\r\nPASS two-step cabinet interaction\r\nPASS persistent cabinet after collection\r\nInteraction tests: 13/13\r\nERROR: Failed to read the root certificate store.\r\n   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)\r\n"
+    },
+    {
+      "test": "gesture_gate",
+      "pass": true,
+      "exit_code": 0,
+      "output": ".....\r\n----------------------------------------------------------------------\r\nRan 5 tests in 0.000s\r\n\r\nOK\r\n"
+    },
+    {
+      "test": "gesture_http",
+      "pass": true,
+      "exit_code": 0,
+      "output": "Загрузка официальной модели MediaPipe (один раз, интернет необходим)...\r\n....\r\n----------------------------------------------------------------------\r\nRan 4 tests in 1.058s\r\n\r\nOK\r\n"
+    },
+    {
+      "test": "v07_regressions",
+      "pass": true,
+      "exit_code": 0,
+      "output": "......\r\n----------------------------------------------------------------------\r\nRan 6 tests in 0.001s\r\n\r\nOK\r\n"
+    },
+    {
+      "test": "v11_extensions",
+      "pass": true,
+      "exit_code": 0,
+      "output": "...........\r\n----------------------------------------------------------------------\r\nRan 11 tests in 0.010s\r\n\r\nOK\r\n"
+    },
+    {
+      "test": "voice_regressions",
+      "pass": true,
+      "exit_code": 0,
+      "output": "6/6 focused voice-regression groups passed\r\n"
+    }
+  ]
+}

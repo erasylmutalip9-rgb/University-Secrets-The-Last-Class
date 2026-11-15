@@ -1,0 +1,20 @@
+# Godot generated cache
+.godot/
+# Python generated caches and local environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Exported builds and diagnostics
+dist/
+build/
+*.exe
+*.pck
+*.log
+*.import
+ai_service/camera_diagnostics.txt
+ai_service/voice_diagnostics.txt
+ai_service/real_camera_acceptance.json
+GODOT_RK2_CHECK.log
+GODOT_CHECK_LOG.txt
+.DS_Store

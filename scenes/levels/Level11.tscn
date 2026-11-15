@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/campaign/map.gd" id="1"]
+[node name="Level11" type="Node3D"]
+script = ExtResource("1")
+level_id = 11
+[node name="Spawn" type="Marker3D" parent="."]
+position = Vector3(0, 0.15, 6.0)
+[node name="Exit" type="Marker3D" parent="."]
+position = Vector3(0, 0, -6.9)

@@ -1,0 +1,25 @@
+extends RefCounted
+
+static func solve(game, optional: bool = false) -> void:
+	game._read_source("arrival")
+	game._show_dialogue("Руслан")
+	game._ask_npc("Когда вчера закрыли центральную дверь?")
+	game._read_source("l1_schedule")
+	game._read_source("l1_maintenance")
+	game._sync_to_state()
+	game.rules.deduce(game.state,"route",game.rules.expected(game.state,"route"),"alternative","Закрытие одной двери не закрывает другие входы")
+	game.rules.witness(game.state,"drawer",["l1_maintenance","l1_schedule"])
+	game.rules.open_drawer(game.state)
+	game._read_source("l1_sensor")
+	game._read_source("l1_clock")
+	game.rules.calibrate(game.state,"20:51")
+	game.rules.restore_message(game.state,["m3","m1","m4","m0","m2"])
+	game.rules.deduce(game.state,"final",game.rules.expected(game.state,"final"),"investigate")
+	game.rules.witness(game.state,"access",["l1_sensor","l1_message"])
+	game.rules.gate(game.state)
+	if optional:
+		game.rules.inspect_back(game.state,180,1.5)
+		game.rules.read_source(game.state,"l1_receipt")
+	game._sync_from_state()
+	game.world.apply_state(game.state)
+	game._save_game()

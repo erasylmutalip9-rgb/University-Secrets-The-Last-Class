@@ -1,0 +1,16 @@
+# Godot source + binary model files
+*.gd text eol=lf
+*.tscn text eol=lf
+*.godot text eol=lf
+*.md text eol=lf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.png binary
+*.jpg binary
+*.ogg binary
+*.task binary
+*.mdl binary
+*.fst binary
+*.mat binary
+*.ie binary
+*.dubm binary
